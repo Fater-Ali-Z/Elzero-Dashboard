@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/framwork.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+  <!--   
+ <link
+      href="//db.onlinewebfonts.com/c/094f68a425490c7686f53f097fc7657d?family=Typo+Round+Regular+Demo"
+      rel="stylesheet"
+      type="text/css"
+    /> -->
+    <title>Dashboard</title>
+</head>
+<body class = "bg-eee">
+    <div class="page d-flex">
+        <!--Start Sidebar-->
+        <div class="sidebar bg-white p-20 p-relative">
+            <h3 class="p-relative txt-c">Fater </h3>
+            <ul class="p-0 list-style-none">
+                <li>
+                    <a href="index.html" class=" d-flex align-center fs-14 c-black rad-6 p-10 mb-5 rad-6-with-bleft">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i> 
+                            <span class="ml-5 hide-mobile">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="sittings.html" class=" d-flex align-center fs-14 c-black rad-6 p-10 mb-5 rad-6-with-bleft">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                            <span class="ml-5 hide-mobile">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html" class=" d-flex align-center fs-14 c-black rad-6 p-10 mb-5 rad-6-with-bleft">
+                        <i class="fa-solid fa-user fa-fw"></i> 
+                            <span class="ml-5 hide-mobile">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="projects.html" class=" d-flex align-center fs-14 c-black rad-6 p-10 mb-5 rad-6-with-bleft">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i> 
+                            <span class="ml-5 hide-mobile">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="courses.html" class=" d-flex align-center fs-14 c-black rad-6 p-10 mb-5 rad-6-with-bleft">
+                        <i class="fa-solid fa-list-check fa-fw"></i>
+                            <span class="ml-5 hide-mobile">Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="friends.html" class=" d-flex align-center fs-14 c-black rad-6 p-10 mb-5 rad-6-with-bleft">
+                        <i class="fa-solid fa-people-group fa-fw"></i> 
+                            <span class="ml-5 hide-mobile">Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="files.html" class="active d-flex align-center fs-14 c-black rad-6 p-10 mb-5 rad-6-with-bleft">
+                        <i class="fa-solid fa-file fa-fw"></i> 
+                            <span class="ml-5 hide-mobile">Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="plans.html" class=" d-flex align-center fs-14 c-black rad-6 p-10 mb-5 rad-6-with-bleft">
+                        <i class="fa-solid fa-sheet-plastic fa-fw"></i> 
+                            <span class="ml-5 hide-mobile">Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--End Sidebar-->
+        <div class="content w-full ">
+            <!-- Head -->
+            <div class="head bg-white p-15 between-flex">
+                <div class="search p-relative">
+                    <input type="search" placeholder="Type a keyword" class="p-10 ml-5 mr-10">
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="notifications p-relative ">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="imgs/Fater.jpg" class="rad-cir ml-15">
+                </div>
+            </div>
+            <!-- End Head -->
+            <h1 class="p-relative mt-20 ml-20 mb-0 title">Files<h1>
+                <div class="files-container d-flex">
+                    <div class="files-boxes d-grid gap-20 m-20"> 
+                       
+                        <div class="file bg-white p-10 rad-10 b-shadow p-relative">
+                            <i class="fa-solid fa-download fa-fw fs-16 p-absolute"></i>
+                            <div class="icon-name mt-20 txt-c">
+                                <img src="icons/pdf.png">
+                                <p class="mt-10 mb-10">my-file.pdf</p>
+                            </div>
+                            <p class="w-full c-grey mt-0 mb-5 pb-10 b-b-eee">Elzero</p>
+                            <div class="date-space between-flex ">
+                                <span class="c-grey mt-0">20/09/2022</span>
+                                <span class="c-grey mt-0">5.5 MB</span>
+                            </div>
+                        </div>
+                       
+                        <div class="file bg-white p-10 rad-10 b-shadow p-relative">
+                            <i class="fa-solid fa-download fa-fw fs-16 p-absolute"></i>
+                            <div class="icon-name mt-20 txt-c">
+                                <img src="icons/xls.png">
+                                <p class="mt-10 mb-10">my-file.pdf</p>
+                            </div>
+                            <p class="w-full c-grey mt-0 mb-5 pb-10 b-b-eee">Elzero</p>
+                            <div class="date-space between-flex ">
+                                <span class="c-grey mt-0">20/09/2022</span>
+                                <span class="c-grey mt-0">5.5 MB</span>
+                            </div>
+                        </div>
+                        
+                        <div class="file bg-white p-10 rad-10 b-shadow p-relative">
+                            <i class="fa-solid fa-download fa-fw fs-16 p-absolute"></i>
+                            <div class="icon-name mt-20 txt-c">
+                                <img src="icons/zip.png">
+                                <p class="mt-10 mb-10">my-file.pdf</p>
+                            </div>
+                            <p class="w-full c-grey mt-0 mb-5 pb-10 b-b-eee">Elzero</p>
+                            <div class="date-space between-flex ">
+                                <span class="c-grey mt-0">20/09/2022</span>
+                                <span class="c-grey mt-0">5.5 MB</span>
+                            </div>
+                        </div>
+                       
+                        <div class="file bg-white p-10 rad-10 b-shadow p-relative">
+                            <i class="fa-solid fa-download fa-fw fs-16 p-absolute"></i>
+                            <div class="icon-name mt-20 txt-c">
+                                <img src="icons/js-file.png">
+                                <p class="mt-10 mb-10">my-file.pdf</p>
+                            </div>
+                            <p class="w-full c-grey mt-0 mb-5 pb-10 b-b-eee">Elzero</p>
+                            <div class="date-space between-flex ">
+                                <span class="c-grey mt-0">20/09/2022</span>
+                                <span class="c-grey mt-0">5.5 MB</span>
+                            </div>
+                        </div>
+                        
+                        <div class="file bg-white p-10 rad-10 b-shadow p-relative">
+                            <i class="fa-solid fa-download fa-fw fs-16 p-absolute"></i>
+                            <div class="icon-name mt-20 txt-c">
+                                <img src="icons/music.png">
+                                <p class="mt-10 mb-10">my-file.pdf</p>
+                            </div>
+                            <p class="w-full c-grey mt-0 mb-5 pb-10 b-b-eee">Elzero</p>
+                            <div class="date-space between-flex ">
+                                <span class="c-grey mt-0">20/09/2022</span>
+                                <span class="c-grey mt-0">5.5 MB</span>
+                            </div>
+                        </div>
+                        
+                        <div class="file bg-white p-10 rad-10 b-shadow p-relative">
+                            <i class="fa-solid fa-download fa-fw fs-16 p-absolute"></i>
+                            <div class="icon-name mt-20 txt-c">
+                                <img src="icons/doc.png">
+                                <p class="mt-10 mb-10">my-file.pdf</p>
+                            </div>
+                            <p class="w-full c-grey mt-0 mb-5 pb-10 b-b-eee">Elzero</p>
+                            <div class="date-space between-flex ">
+                                <span class="c-grey mt-0">20/09/2022</span>
+                                <span class="c-grey mt-0">5.5 MB</span>
+                            </div>
+                        </div>
+                       
+                        <div class="file bg-white p-10 rad-10 b-shadow p-relative">
+                            <i class="fa-solid fa-download fa-fw fs-16 p-absolute"></i>
+                            <div class="icon-name mt-20 txt-c">
+                                <img src="icons/pdf.png">
+                                <p class="mt-10 mb-10">my-file.pdf</p>
+                            </div>
+                            <p class="w-full c-grey mt-0 mb-5 pb-10 b-b-eee">Elzero</p>
+                            <div class="date-space between-flex ">
+                                <span class="c-grey mt-0">20/09/2022</span>
+                                <span class="c-grey mt-0">5.5 MB</span>
+                            </div>
+                        </div>
+                        
+                        <div class="file bg-white p-10 rad-10 b-shadow p-relative">
+                            <i class="fa-solid fa-download fa-fw fs-16 p-absolute"></i>
+                            <div class="icon-name mt-20 txt-c">
+                                <img src="icons/pdf.png">
+                                <p class="mt-10 mb-10">my-file.pdf</p>
+                            </div>
+                            <p class="w-full c-grey mt-0 mb-5 pb-10 b-b-eee">Elzero</p>
+                            <div class="date-space between-flex ">
+                                <span class="c-grey mt-0">20/09/2022</span>
+                                <span class="c-grey mt-0">5.5 MB</span>
+                            </div>
+                        </div>
+                        
+                        <div class="file bg-white p-10 rad-10 b-shadow p-relative">
+                            <i class="fa-solid fa-download fa-fw fs-16 p-absolute"></i>
+                            <div class="icon-name mt-20 txt-c">
+                                <img src="icons/music.png">
+                                <p class="mt-10 mb-10">my-file.pdf</p>
+                            </div>
+                            <p class="w-full c-grey mt-0 mb-5 pb-10 b-b-eee">Elzero</p>
+                            <div class="date-space between-flex ">
+                                <span class="c-grey mt-0">20/09/2022</span>
+                                <span class="c-grey mt-0">5.5 MB</span>
+                            </div>
+                        </div>
+                       
+                        <div class="file bg-white p-10 rad-10 b-shadow p-relative">
+                            <i class="fa-solid fa-download fa-fw fs-16 p-absolute"></i>
+                            <div class="icon-name mt-20 txt-c">
+                                <img src="icons/pdf.png">
+                                <p class="mt-10 mb-10">my-file.pdf</p>
+                            </div>
+                            <p class="w-full c-grey mt-0 mb-5 pb-10 b-b-eee">Elzero</p>
+                            <div class="date-space between-flex ">
+                                <span class="c-grey mt-0">20/09/2022</span>
+                                <span class="c-grey mt-0">5.5 MB</span>
+                            </div>
+                        </div>
+                        
+                        <div class="file bg-white p-10 rad-10 b-shadow p-relative">
+                            <i class="fa-solid fa-download fa-fw fs-16 p-absolute"></i>
+                            <div class="icon-name mt-20 txt-c">
+                                <img src="icons/xls.png">
+                                <p class="mt-10 mb-10">my-file.pdf</p>
+                            </div>
+                            <p class="w-full c-grey mt-0 mb-5 pb-10 b-b-eee">Elzero</p>
+                            <div class="date-space between-flex ">
+                                <span class="c-grey mt-0">20/09/2022</span>
+                                <span class="c-grey mt-0">5.5 MB</span>
+                            </div>
+                        </div>
+                        
+                        <div class="file bg-white p-10 rad-10 b-shadow p-relative">
+                            <i class="fa-solid fa-download fa-fw fs-16 p-absolute"></i>
+                            <div class="icon-name mt-20 txt-c">
+                                <img src="icons/js-file.png">
+                                <p class="mt-10 mb-10">my-file.pdf</p>
+                            </div>
+                            <p class="w-full c-grey mt-0 mb-5 pb-10 b-b-eee">Elzero</p>
+                            <div class="date-space between-flex ">
+                                <span class="c-grey mt-0">20/09/2022</span>
+                                <span class="c-grey mt-0">5.5 MB</span>
+                            </div>
+                        </div>
+                        
+                        <div class="file bg-white p-10 rad-10 b-shadow p-relative">
+                            <i class="fa-solid fa-download fa-fw fs-16 p-absolute"></i>
+                            <div class="icon-name mt-20 txt-c">
+                                <img src="icons/music.png">
+                                <p class="mt-10 mb-10">my-file.pdf</p>
+                            </div>
+                            <p class="w-full c-grey mt-0 mb-5 pb-10 b-b-eee">Elzero</p>
+                            <div class="date-space between-flex ">
+                                <span class="c-grey mt-0">20/09/2022</span>
+                                <span class="c-grey mt-0">5.5 MB</span>
+                            </div>
+                        </div>
+                        
+                        <div class="file bg-white p-10 rad-10 b-shadow p-relative">
+                            <i class="fa-solid fa-download fa-fw fs-16 p-absolute"></i>
+                            <div class="icon-name mt-20 txt-c">
+                                <img src="icons/doc.png">
+                                <p class="mt-10 mb-10">my-file.pdf</p>
+                            </div>
+                            <p class="w-full c-grey mt-0 mb-5 pb-10 b-b-eee">Elzero</p>
+                            <div class="date-space between-flex ">
+                                <span class="c-grey mt-0">20/09/2022</span>
+                                <span class="c-grey mt-0">5.5 MB</span>
+                            </div>
+                        </div>
+                        
+                        <div class="file bg-white p-10 rad-10 b-shadow p-relative">
+                            <i class="fa-solid fa-download fa-fw fs-16 p-absolute"></i>
+                            <div class="icon-name mt-20 txt-c">
+                                <img src="icons/pdf.png">
+                                <p class="mt-10 mb-10">my-file.pdf</p>
+                            </div>
+                            <p class="w-full c-grey mt-0 mb-5 pb-10 b-b-eee">Elzero</p>
+                            <div class="date-space between-flex ">
+                                <span class="c-grey mt-0">20/09/2022</span>
+                                <span class="c-grey mt-0">5.5 MB</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="files-statistics bg-white rad-10 b-shadow m-20 ml-0 p-15">
+                        <h3 class="mt-0 mb-10 txt-c-mobile">Files Statistics</h3>
+                        <div class="row p-5 mb-10 rad-10 b-s-eee between-flex">
+                            <div class="img-info d-flex align-center">
+                                <div class="img center-flex bg-o-red mr-10 rad-6">
+                                    <img src="icons/pdf.png">
+                                </div>
+                                <div class="info">
+                                    <p class="m-0 mb-5 fs-12">PDF Files</p>
+                                    <p class="m-0 c-grey fs-12">130</p>
+                                </div>
+                            </div>   
+                            <span class="m-0  c-grey fs-10">6.5 GB</span>
+                        </div>
+                        <div class="row p-5 mb-10 rad-10 b-s-eee between-flex">
+                            <div class="img-info d-flex align-center">
+                                <div class="img center-flex bg-o-blue mr-10 rad-6">
+                                    <img src="icons/doc.png">
+                                </div>
+                                <div class="info">
+                                    <p class="m-0 mb-5 fs-12">Word Files</p>
+                                    <p class="m-0 c-grey fs-12">112</p>
+                                </div>
+                            </div>   
+                            <span class="m-0  c-grey fs-10">2.1 GB</span>
+                        </div>
+                        <div class="row p-5 mb-10 rad-10 b-s-eee between-flex">
+                            <div class="img-info d-flex align-center">
+                                <div class="img center-flex bg-o-green mr-10 rad-6">
+                                    <img src="icons/xls.png">
+                                </div>
+                                <div class="info">
+                                    <p class="m-0 mb-5 fs-12">Excel Files</p>
+                                    <p class="m-0 c-grey fs-12">93</p>
+                                </div>
+                            </div>   
+                            <span class="m-0  c-grey fs-10">1.4 GB</span>
+                        </div>
+                        <div class="row p-5 mb-20 rad-10 b-s-eee between-flex">
+                            <div class="img-info d-flex align-center">
+                                <div class="img center-flex bg-o-purple mr-10 rad-6">
+                                    <img src="icons/music.png">
+                                </div>
+                                <div class="info">
+                                    <p class="m-0 mb-5 fs-12">Music</p>
+                                    <p class="m-0 c-grey fs-12">10</p>
+                                </div>
+                            </div>   
+                            <span class="m-0  c-grey fs-10">864 MB</span>
+                            
+                        </div>
+                        <div class="upload p-10 bg-blue rad-6 c-white center-flex w-fit">
+                            <i class="fa-solid fa-upload c-white fs-14 mr-10"></i> 
+                            <p class="m-0">Upload</p>
+                        </div>
+                    </div>           
+                </div>
+
+
+  
+         </div>
+
+</body>
+</html>
